@@ -7,6 +7,4 @@ There are three ways to receive the measurements:
 
 The device shows power, voltage and current per phase, imported and exported energy (Homey Energy), net power (negative while exporting), reactive power and power factor.
 
-Flow cards: a measurement was received, no data received for a number of minutes, and data has/has not been received in the last minutes.
-
 The app settings contain the status of the built-in broker and a step-by-step guide for configuring the Watts Live module with the nRF Connect app.

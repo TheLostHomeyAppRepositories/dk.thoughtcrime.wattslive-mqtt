@@ -30,10 +30,4 @@ and the **Status** tab shows the meters that have published to Homey.
 - Imported and exported energy (`meter_power.imported` / `meter_power.exported`, used by Homey Energy)
 - Reactive power and energy, net reactive power (`measure_power.reactive`) and power factor (`measure_power_factor`)
 
-## Flow cards
-
-- **When** a measurement was received (tokens: power, export, net power, imported and exported energy)
-- **When** no data has been received for *N* minutes (fires once per silence)
-- **And** data has / has not been received in the last *N* minutes
-
 The device is marked unavailable after 5 minutes without data and becomes available again with the next measurement.
